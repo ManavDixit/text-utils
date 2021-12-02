@@ -1,0 +1,25 @@
+.container{
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+.heading{
+    margin: 20px;
+}
+#textBox{
+    padding: 20px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    outline:none;
+    border-radius: 8px;
+    resize: none;
+}
+.btn{
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background: transparent;
+}
+p{
+    margin: 30px;
+}

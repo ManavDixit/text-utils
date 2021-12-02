@@ -1,0 +1,42 @@
+#navbar{
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid grey;
+  border-radius: 10px;
+  transition: all .5s ease-in-out;
+}
+#navbar ul{
+  margin: 10px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: all .5s ease-in-out;
+}
+.switchBox {
+  display: flex;
+  align-items: center;
+  width: 15%;
+  height: 50px;
+  background:white;
+  border:1px solid black;
+  padding: 15px;
+  border-radius: 40px;
+  transition: all .4s ease-in-out;
+}
+.innerCircle {
+  height: 20px;
+  width: 40%;
+  background:black;
+  border-radius: 100%;
+  transition: all .4s ease-in;
+}
+.active {
+    margin-left: 60%;
+}
